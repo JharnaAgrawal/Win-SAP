@@ -47,6 +47,8 @@
  > **Note**:If you do not have an account already. please create a new [Azure account](https://azure.microsoft.com/en-us/). You can start free Once you are logged into portal, chose push button ‘+’ on the left to create a new Azure service.
  
  ![](MD%20image/2.png)
+ 
+ 
 
 
                         
