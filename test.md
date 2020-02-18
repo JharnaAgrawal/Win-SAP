@@ -1,10 +1,13 @@
 ﻿
 ![](MD%20image/1.png)
 
-<img src="MD%20image/1.PNG" width="900" />
+![](MD%20image/1.png?raw=true)
+
+
 ## **ABAP SDK Implementation guide for Azure Event hubs**
 
 [Git Hub](https://github.com/Microsoft/ABAP-SDK-for-Azure)
+
 
 *Author: Microsoft SAP Team*.
 
