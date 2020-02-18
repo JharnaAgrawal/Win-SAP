@@ -1,5 +1,7 @@
-﻿![](MD%20image/1.png)
+﻿
+![](MD%20image/1.png)
 
+<img src="MD%20image/1.png" width="800" />
 ## **ABAP SDK Implementation guide for Azure Event hubs**
 
 [Git Hub](https://github.com/Microsoft/ABAP-SDK-for-Azure)
@@ -48,9 +50,4 @@
  ```markdown
  ![](MD%20image/2.png)
  ```
-  ![](MD%20image/2.png)
- 
- 
-
-
-                        
+  ![](2.png)
