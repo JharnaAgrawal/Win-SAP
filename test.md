@@ -1,16 +1,22 @@
 ﻿
  
-
-<img align="center" width="150" height="100" src="https://github.com/JharnaAgrawal/Win-SAP/blob/master/1.png"> 
+<p align="center">
+<img width="150" height="100" src="https://github.com/JharnaAgrawal/Win-SAP/blob/master/1.png"> 
+</p>  
 
 ## **ABAP SDK Implementation guide for Azure Event hubs**
 
 [Git Hub](https://github.com/Microsoft/ABAP-SDK-for-Azure)
 
+<p align="right">
+Author: Microsoft SAP Team.  
+</p>
+<p align="right">
+Version: 1.0
+</p>
 
-*Author: Microsoft SAP Team*.
 
-*Version: 1.0*
+
 
 
 #### ABAP SDK for Azure
