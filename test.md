@@ -18,9 +18,10 @@ Version: 1.0
 
 
 ### ABAP SDK for Azure
-<h2 class="title">
-Contents  
-</h2>
+
+#### Contents  
+1. [What is Azure Event hub?](#What is Azure Event hub?)
+2. [Prerequisites](#Prerequisites)
 <div id="TOC">
     <ul>
         <li>
@@ -43,12 +44,16 @@ Contents
              </a>
             </li>
               <li>
+              <p align="left">
                <a href="#Configuration">Configuration  
                </a>
+               </p>
               </li>
         </li>
     </ul>
 </div>
+
+
 
    * ZREST_CONFIG
    * ZREST_CONF_MISC
@@ -59,6 +64,8 @@ Contents
  5. View sent data in Azure Eventhub  
  6. ABAP SDK Monitor  
  7. Auto re-processing of failed messages  
+ 
+ #### **What is Azure Event hub?**  <a name="What is Azure Event hub?"></a>
  
  <div id="What is Azure Event hub?">
     <h2>
