@@ -3,6 +3,7 @@
 
 ![](https://github.com/JharnaAgrawal/Win-SAP/blob/master/1.png)
 
+<img align="left" width="100" height="100" src="https://github.com/JharnaAgrawal/Win-SAP/blob/master/1.png/100/100">
 
 ## **ABAP SDK Implementation guide for Azure Event hubs**
 
