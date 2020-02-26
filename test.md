@@ -35,25 +35,11 @@ Version: 1.0
         </li>
         <li>
             <a href="#How to send data from SAP to Azure Event hub?">4. How to send data from SAP to Azure Event hub? </a>
-            
-            <li>
-             <a href="#Creation of RFC destination to Azure Event hub">Creation of RFC destination to Azure Event hub 
-             </a>
-            </li>
-             <li>
-             <a href="#STRUST Setup">STRUST Setup 
-             </a>
-            </li>
-              <li>
-              <p align="left">
-               <a href="#Configuration">Configuration  
-               </a>
-               </p>
+        </li>   
     </ul>
 </div>
 
-       1. [Sub paragraph](#subparagraph1)
-          1. [Sub paragraph](#subparagraph1)
+     
    * ZREST_CONFIG
    * ZREST_CONF_MISC
    * ZADF_CONFIG 
