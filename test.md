@@ -51,7 +51,7 @@ Version: 1.0
    * DEMO Program   
    
 
-<div id="1.1. Markdown formatting cheatsheet">
+<div id="heading--1-1">
     <h2>
         <a href="#TOC">1.1. Markdown formatting cheatsheet</a>
     </h2>
