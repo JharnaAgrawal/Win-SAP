@@ -1,7 +1,7 @@
 ﻿
 
 
-![](JharnaAgrawal/Win-SAP/1.png)
+![](https://github.com/JharnaAgrawal/Win-SAP/blob/master/1.png)
 
 
 ## **ABAP SDK Implementation guide for Azure Event hubs**
