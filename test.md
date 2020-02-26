@@ -29,16 +29,27 @@ Contents
         <li>
             <a href="#Prerequisites">2. Prerequisites </a>
         </li>
+        <li>
+            <a href="#How to setup Event hub in Azure?">3. How to setup Event hub in Azure? </a>
+        </li>
+        <li>
+            <a href="#How to send data from SAP to Azure Event hub?">4. How to send data from SAP to Azure Event hub? </a>
+            <li>
+             <a href="#Creation of RFC destination to Azure Event hub">Creation of RFC destination to Azure Event hub 
+             </a>
+            </li>
+             <li>
+             <a href="#STRUST Setup">STRUST Setup 
+             </a>
+            </li>
+              <li>
+               <a href="#Configuration">Configuration  
+               </a>
+              </li>
+        </li>
     </ul>
 </div>
 
-
- 
-3. How to setup Event hub in Azure?  
-4. How to send data from SAP to Azure Event hub?  
- * Creation of RFC destination to Azure Event hub  
- * STRUST Setup
- * Configuration  
    * ZREST_CONFIG
    * ZREST_CONF_MISC
    * ZADF_CONFIG 
