@@ -24,10 +24,10 @@ Contents
 <div id="TOC">
     <ul>
         <li>
-            <a href="#What is Azure Event hub?">What is Azure Event hub? </a>
+            <a href="#What is Azure Event hub?">1. What is Azure Event hub? </a>
         </li>
         <li>
-            <a href="#Prerequisites">Prerequisites </a>
+            <a href="#Prerequisites">2. Prerequisites </a>
         </li>
     </ul>
 </div>
