@@ -1,12 +1,8 @@
 ﻿
-![](https://github.com/JharnaAgrawal/Win-SAP/blob/master/1.png){: .center-image, height="300px", width="150px"}  
+ 
 
-<img align="right" width="150" height="100" src="https://github.com/JharnaAgrawal/Win-SAP/blob/master/1.png"> 
+<img align="center" width="150" height="100" src="https://github.com/JharnaAgrawal/Win-SAP/blob/master/1.png"> 
 
-  
-  
-      
-      
 ## **ABAP SDK Implementation guide for Azure Event hubs**
 
 [Git Hub](https://github.com/Microsoft/ABAP-SDK-for-Azure)
