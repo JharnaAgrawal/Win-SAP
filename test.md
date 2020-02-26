@@ -49,14 +49,11 @@ Version: 1.0
                <a href="#Configuration">Configuration  
                </a>
                </p>
-              </li>
-                 [Sub paragraph](#subparagraph1)
-        </li>
     </ul>
 </div>
 
-
-
+       1. [Sub paragraph](#subparagraph1)
+          1. [Sub paragraph](#subparagraph1)
    * ZREST_CONFIG
    * ZREST_CONF_MISC
    * ZADF_CONFIG 
