@@ -20,7 +20,7 @@ Version: 1.0
 ### ABAP SDK for Azure
 
 #### Contents  
-1. [What is Azure Event hub?](#What is Azure Event hub?)
+1. [What is Azure Event hub?](#hub?)
 2. [Prerequisites](#Prerequisites)
 <div id="TOC">
     <ul>
@@ -65,7 +65,7 @@ Version: 1.0
  6. ABAP SDK Monitor  
  7. Auto re-processing of failed messages  
  
- #### **What is Azure Event hub?**  <a name="What is Azure Event hub?"></a>
+ ### **What is Azure Event hub?**  <a name="hub?"></a>
  
  <div id="What is Azure Event hub?">
     <h2>
@@ -78,7 +78,7 @@ Version: 1.0
 
  Azure Event Hubs is a hyper-scale telemetry ingestion service which collects, transforms and stores millions of events. As a distributed streaming platform, it gives you low latency and configurable time retention, which enables you to ingress massive amounts of telemetry into the cloud and read the data from multiple applications using publish-subscribe semantics.  
  For more details on Azure Event hubs, visit [Microsoft Azure Event hub](https://azure.microsoft.com/en-in/services/event-hubs/) 
-
+ ### **Prerequisites**  <a name="Prerequisites"></a>
 <div id="Prerequisites">
     <h2>
         <a href="#TOC">Prerequisites</a>
