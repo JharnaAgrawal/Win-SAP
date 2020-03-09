@@ -181,9 +181,15 @@ Version: 1.0
  
  ![](MD%20image/15.png)
  
- **STRUST Setup**
- 
- We need to import Microsoft’s Certificate and import in STRUST for SSL handshake between SAP system and Azure Eventhub over HTTPS protocol. To download the certificate, in your browser, go to URL with the hostname and path prefix you used for creating RFC destination.
+ <div id="heading--1-2">
+    <h3>
+        <a href="#TOC">4.2 STRUST Setup</a>
+    </h3>
+    <p>
+    We need to import Microsoft’s Certificate and import in STRUST for SSL handshake between SAP system and Azure Eventhub over HTTPS protocol. To download the certificate, in your browser, go to URL with the hostname and path prefix you used for creating RFC destination.
+    </p>
+</div>
+
  
  [https://abapsdkkdemo-eh.servicebus.windows.net/sapevents/messages](https://abapsdkkdemo-eh.servicebus.windows.net/sapevents/messages)
  
@@ -207,9 +213,15 @@ when all the certificates are downloaded, Go to STRUST transaction in your SAP s
 
 >**Note**: We are not going through the process of Importing certificates in STRUST in this document. It is straight forward, and your BASIS team can help you to do this activity.
 
-**Configuration**
+<div id="heading--1-3">
+    <h3>
+        <a href="#TOC">4.3 Configuration</a>
+    </h3>
+    <p>
+   ABAP SDK has following main configuration tables and they need to be maintained. We will create a new Interface ID to establish connection between SAP system and target Azure Event Hub. A new Interface ID needs to be created for each Event Hub namespace.
+    </p>
+</div>
 
-ABAP SDK has following main configuration tables and they need to be maintained. We will create a new Interface ID to establish connection between SAP system and target Azure Event Hub. A new Interface ID needs to be created for each Event Hub namespace.
 
 >**Note**: Currently all these Configurations tables must be maintained manually using SM30. We are developing a new Graphical Interface to simplify the configuration steps. This will be released with next versions. Keeping looking for Updates.
 
@@ -221,14 +233,26 @@ ABAP SDK has following main configuration tables and they need to be maintained.
 
 **ZADF_EHUB_POLICY** – This is Event hub specific table that stores Azure Event hub policy details that shall be used during communication.
 
-**ZREST_CONFIG**  
-Create a new Interface ID like ‘DEMO_EHUB’ and Maintain the RFC destination you created earlier.
+<div id="heading--1-4">
+    <h3>
+        <a href="#TOC">ZREST_CONFIG</a>
+    </h3>
+    <p>
+   Create a new Interface ID like ‘DEMO_EHUB’ and Maintain the RFC destination you created earlier.
+    </p>
+</div>
+ 
 
 ![](MD%20image/19.png)
 
-**ZREST_CONF_MISC**
-
-Create an entry in table ‘ZREST_CONF_MISC’ for the above interface Id ‘DEMO_EHUB’.
+<div id="heading--1-5">
+    <h3>
+        <a href="#TOC">ZREST_CONF_MISC</a>
+    </h3>
+    <p>
+   Create an entry in table ‘ZREST_CONF_MISC’ for the above interface Id ‘DEMO_EHUB’.
+    </p>
+</div>
 
 Details of configuration:
 
@@ -245,9 +269,14 @@ Details of configuration:
 
 ![](MD%20image/20.png)
 
-**ZADF_CONFIG**
-
-Create an entry in table ‘ZADF_CONFIG’ for the above interface Id ‘DEMO_EHUB’.
+<div id="heading--1-6">
+    <h3>
+        <a href="#TOC">ZADF_CONFIG</a>
+    </h3>
+    <p>
+   Create an entry in table ‘ZADF_CONFIG’ for the above interface Id ‘DEMO_EHUB’.
+    </p>
+</div>
 
 Details of configuration:
 
@@ -263,23 +292,48 @@ Details of configuration:
 
 ![](MD%20image/21.png)
 
-**ZADF_EHUB_POLICY**
+<div id="heading--1-7">
+    <h3>
+        <a href="#TOC">ZADF_EHUB_POLICY</a>
+    </h3>
+    <p>
+  You need to maintain the policy name that you have created in Azure portal in this config table. This is required to generate token for authentication with Azure Event hubs. Refer Page 10 of this document to get the policy name. Azure creates default policy ‘RootManageSharedAccessKey’, but if you had created your own policy, then maintain that policy name here.
+    </p>
+</div>
 
-You need to maintain the policy name that you have created in Azure portal in this config table. This is required to generate token for authentication with Azure Event hubs. Refer Page 10 of this document to get the policy name. Azure creates default policy ‘RootManageSharedAccessKey’, but if you had created your own policy, then maintain that policy name here.
 
 ![](MD%20image/22.png)
 
-**DEMO Program**
+<div id="heading--1-8">
+    <h3>
+        <a href="#TOC">ZADF_EHUB_POLICY</a>
+    </h3>
+    <p>
+ Please refer to DEMO program ‘ZADF_DEMO_AZURE_EVENTHUB’ to send sample data from your SAP system to Azure Event hub.
+    </p>
+</div>
 
-Please refer to DEMO program **‘ZADF_DEMO_AZURE_EVENTHUB’** to send sample data from your SAP system to Azure Event hub.
-
-**View sent data in Azure Eventhub**
+<div id="View sent data in Azure Eventhub">
+    <h2>
+        <a href="#TOC1">View sent data in Azure Eventhub</a>
+    </h2>
+    <p>
+       
+    </p>
+</div>
 
 To view data in Azure Event hub, Install [Service bus explorer](https://docs.microsoft.com/en-us/archive/blogs/paolos/service-bus-explorer-2-6-now-available)
 
 You can get more details on How to setup Service Bus explorer in [MSDN Blog](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 
-**ABAP SDK Monitor**
+<div id="View sent data in Azure Eventhub">
+    <h2>
+        <a href="#TOC1">ABAP SDK Monitor</a>
+    </h2>
+    <p>
+       
+    </p>
+</div>
 
 We have provided an Interface Monitor (Transaction ZREST_UTIL), using this monitor you can view history of all the messages that were posted to Azure Services. Incase you have a scheduled a background job to post messages to Azure, you can view the statuses of the messages in this monitor. This Monitor can be used for troubleshooting and re-processing of the message as well.
 
@@ -291,7 +345,15 @@ In this monitor, you can view the status of the HTTPs message and its headers, r
 
 ![](MD%20image/24.png)
 
-**Auto re-processing of failed messages**
+<div id="View sent data in Azure Eventhub">
+    <h2>
+        <a href="#TOC1">Auto re-processing of failed messages</a>
+    </h2>
+    <p>
+       
+    </p>
+</div>
+
 
 For auto-processing of messages in case of failures, you must schedule a background job for program ‘ZREST_SCHEDULER’ as a pre-requisite
 
