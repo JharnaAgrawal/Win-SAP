@@ -1,7 +1,7 @@
 ﻿
  
 <p align="center">
-<img width="450" height="100" src="https://github.com/JharnaAgrawal/Win-SAP/blob/master/MD%20image/1.png"> 
+<img width="450" height="100" src="MD%20image/1.png"> 
 </p>  
 
 ## **ABAP SDK Implementation guide for Azure Event hubs**
@@ -306,7 +306,7 @@ Details of configuration:
 
 <div id="heading--1-8">
     <h3>
-        <a href="#TOC">ZADF_EHUB_POLICY</a>
+        <a href="#TOC">DEMO Program</a>
     </h3>
     <p>
  Please refer to DEMO program ‘ZADF_DEMO_AZURE_EVENTHUB’ to send sample data from your SAP system to Azure Event hub.
@@ -315,7 +315,7 @@ Details of configuration:
 
 <div id="View sent data in Azure Eventhub">
     <h2>
-        <a href="#TOC1">View sent data in Azure Eventhub</a>
+        <a href="#TOC">View sent data in Azure Eventhub</a>
     </h2>
    
 </div>
@@ -326,7 +326,7 @@ You can get more details on How to setup Service Bus explorer in [MSDN Blog](htt
 
 <div id="ABAP SDK Monitor">
     <h2>
-        <a href="#TOC1">ABAP SDK Monitor</a>
+        <a href="#TOC">ABAP SDK Monitor</a>
     </h2>
    
 </div>
@@ -343,7 +343,7 @@ In this monitor, you can view the status of the HTTPs message and its headers, r
 
 <div id="Auto re-processing of failed messages">
     <h2>
-        <a href="#TOC1">Auto re-processing of failed messages</a>
+        <a href="#TOC">Auto re-processing of failed messages</a>
     </h2>
     
 </div>
