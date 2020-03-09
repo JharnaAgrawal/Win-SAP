@@ -54,10 +54,10 @@ Version: 1.0
             <a href="#View sent data in Azure Eventhub">5. View sent data in Azure Eventhub </a>
         </li>
         <li>
-        <a href="#ABAP SDK Monitor hub?">6. ABAP SDK Monitor </a>
+        <a href="#ABAP SDK Monitor">6. ABAP SDK Monitor </a>
         </li>
         <li>
-            <a href="#Auto re-processing of failed messages  hub?">7. Auto re-processing of failed messages </a>
+            <a href="#Auto re-processing of failed messages">7. Auto re-processing of failed messages </a>
         </li>
     </ul>
 </div>
