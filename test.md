@@ -48,16 +48,16 @@ Version: 1.0
     * [ZADF_EHUB_POLICY ](#heading--1-7)
     * [DEMO Program ](#heading--1-8)
    
-<div id="TOC">
+<div id="TOC1">
     <ul>
         <li>
             <a href="#View sent data in Azure Eventhub">5. View sent data in Azure Eventhub </a>
         </li>
         <li>
-            <a href="#ABAP SDK Monitor hub?">6. ABAP SDK Monitor  </a>
+        <a href="#ABAP SDK Monitor hub?">6. ABAP SDK Monitor </a>
         </li>
         <li>
-            <a href="#Auto re-processing of failed messages  hub?">7. Auto re-processing of failed messages  </a>
+            <a href="#Auto re-processing of failed messages  hub?">7. Auto re-processing of failed messages </a>
         </li>
     </ul>
 </div>
@@ -326,7 +326,7 @@ You can get more details on How to setup Service Bus explorer in [MSDN Blog](htt
 
 <div id="ABAP SDK Monitor">
     <h2>
-        <a href="#TOC">ABAP SDK Monitor</a>
+        <a href="#TOC1">ABAP SDK Monitor</a>
     </h2>
     <p>
 We have provided an Interface Monitor (Transaction ZREST_UTIL), using this monitor you can view history of all the messages that were posted to Azure Services. Incase you have a scheduled a background job to post messages to Azure, you can view the statuses of the messages in this monitor. This Monitor can be used for troubleshooting and re-processing of the message as well.
@@ -345,20 +345,13 @@ In this monitor, you can view the status of the HTTPs message and its headers, r
 
 <div id="Auto re-processing of failed messages">
     <h2>
-        <a href="#TOC">Auto re-processing of failed messages</a>
+        <a href="#TOC1">Auto re-processing of failed messages </a>
     </h2>
      <p>
      For auto-processing of messages in case of failures, you must schedule a background job for program ‘ZREST_SCHEDULER’ as a pre-requisite
      <p>
 </div>
-<div id="#TOC">
-    <h2>
-        <a href="#Auto re-processing of failed messages">Auto re-processing of failed messages</a>
-    </h2>
-     <p>
-     For auto-processing of messages in case of failures, you must schedule a background job for program ‘ZREST_SCHEDULER’ as a pre-requisite
-     <p>
-</div>
+
 
 
 
