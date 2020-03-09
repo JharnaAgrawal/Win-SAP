@@ -35,35 +35,35 @@ Version: 1.0
         </li>
         <li>
             <a href="#How to send data from SAP to Azure Event hub?">4. How to send data from SAP to Azure Event hub? </a>
-        </li>   
+        </li>
     </ul>
 </div>
 
-**[1. Markdown](#heading--1)**
-
-  * [1.1. Markdown formatting cheatsheet](#heading--1-1)
-  * [1.2. Markdown formatting details](#heading--1-2)
-     
-   * ZREST_CONFIG
-   * ZREST_CONF_MISC
-   * ZADF_CONFIG 
-   * ZADF_EHUB_POLICY 
-   * DEMO Program   
+  * [4.1 Creation of RFC destination to Azure Event hub](#heading--1-1)
+  * [4.2 STRUST Setup](#heading--1-2)
+  * [4.3 Configuration](#heading--1-3)
+    * [ZREST_CONFIG ](#heading--1-4)
+    * [ZREST_CONF_MISC ](#heading--1-5)
+    * [ZADF_CONFIG ](#heading--1-6)
+    * [ZADF_EHUB_POLICY ](#heading--1-7)
+    * [DEMO Program ](#heading--1-8)
    
-
-<div id="heading--1-1">
-    <h2>
-        <a href="#TOC">1.1. Markdown formatting cheatsheet</a>
-    </h2>
-    <p>
-    </p>
+<div id="TOC1">
+    <ul>
+        <li>
+            <a href="#View sent data in Azure Eventhub">5. View sent data in Azure Eventhub </a>
+        </li>
+        <li>
+            <a href="#ABAP SDK Monitor  hub?">6. ABAP SDK Monitor  </a>
+        </li>
+        <li>
+            <a href="#Auto re-processing of failed messages  hub?">7. Auto re-processing of failed messages  </a>
+        </li>
+    </ul>
 </div>
 
- 5. View sent data in Azure Eventhub  
- 6. ABAP SDK Monitor  
- 7. Auto re-processing of failed messages  
- 
- 
+
+
  <div id="What is Azure Event hub?">
     <h2>
         <a href="#TOC">What is Azure Event hub?</a>
@@ -71,6 +71,7 @@ Version: 1.0
     <p>
     </p>
 </div>
+
  **Stream millions of events per second**   
 
  Azure Event Hubs is a hyper-scale telemetry ingestion service which collects, transforms and stores millions of events. As a distributed streaming platform, it gives you low latency and configurable time retention, which enables you to ingress massive amounts of telemetry into the cloud and read the data from multiple applications using publish-subscribe semantics.  
@@ -85,14 +86,18 @@ Version: 1.0
     </p>
 </div>
 
-
+<div id="How to setup Event hub in Azure?">
+    <h2>
+        <a href="#TOC">How to setup Event hub in Azure?</a>
+    </h2>
+</div>
  
- ## How to setup Event hub in Azure?  
+
  Login to [Microsoft Azure portal](https://ms.portal.azure.com/#home)
  
  > **Note**:If you do not have an account already. please create a new [Azure account](https://azure.microsoft.com/en-us/). You can start free Once you are logged into portal, chose push button ‘+’ on the left to create a new Azure service.
  
- ![](https://github.com/JharnaAgrawal/Win-SAP/blob/master/MD%20image/2.png)
+ ![](MD%20image/2.png)
  
  Search for Event hubs and Select 'Event Hubs' with Microsoft as publisher.
  
@@ -144,12 +149,20 @@ Version: 1.0
  
  With this we are ready with the setup process in Azure portal. We will now configure and code in SAP system to send data from SAP system directly to Azure Event Hub.
  
+ <div id="How to send data from SAP to Azure Event hub?">
+    <h2>
+        <a href="#TOC">How to send data from SAP to Azure Event hub?</a>
+    </h2>
+</div>
  
- ## How to send data from SAP to Azure Event hub?
- 
- **Creation of RFC destination to Azure Event hub**  
- 
- Go to transaction SM59 in your SAP system and create new RFC destination of type ‘G’. Maintain your Event hubs namespace endpoint in the Target host and Event Hub name in path prefix as shown below.
+<div id="heading--1-1">
+    <h3>
+        <a href="#TOC">4.1 Creation of RFC destination to Azure Event hub</a>
+    </h3>
+    <p>
+    Go to transaction SM59 in your SAP system and create new RFC destination of type ‘G’. Maintain your Event hubs namespace endpoint in the Target host and Event Hub name in path prefix as shown below.
+    </p>
+</div>
  
  Target host: <Eventhub Namespace>.servicebus.windows.net
 
