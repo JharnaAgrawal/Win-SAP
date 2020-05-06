@@ -1,8 +1,12 @@
-﻿<p align="center">
-<img width="450" height="100" src="MD%20image/1.png"> 
+﻿<p align="right">
+<img width="300" height="70" src="MD%20image/1.png"> 
 </p>  
+<p align="center">
+<h1 align="center" >
+    SAPSnooze PowerApp
+</h1>
+</p>
 
-## **SAPSnooze PowerApp**
 ### **Application Overview:**
 #### **Prerequisites:**
 1.	Azure automation account
@@ -65,15 +69,15 @@ Users who will be accessing the PowerApps application need edit access on the Sh
 [https://preview.create.powerapps.com/studio/#](https://preview.create.powerapps.com/studio/#)
 2.	Create a new Connection for SharePoint. 
 3.	Use the credentials of a user who has read and write permissions on the SharePoint List that you’ve created in the above step.
-4.	Create a new custom connector “Start SAP Systems” using the json file under /PowerApps/Start-SAP-Systems.swagger.json 
-5.	Create the connection "Start SAP Systems" using the newly created custom connector 
+4.	Create a new custom connector “**Start SAP Systems**” using the json file under /PowerApps/Start-SAP-Systems.swagger.json 
+5.	Create the connection "**Start SAP Systems**" using the newly created custom connector 
 6.	Create a new SQL Server Connection for collecting usage telemetry 
-7.	Once the connectors are created, then import the PowerApps package from \PowerApps\SAPSnooze.zip by using the "Import canvas app" button to create the application
+7.	Once the connectors are created, then import the PowerApps package from \PowerApps\SAPSnooze.zip by using the "**Import canvas app**" button to create the application
 8.	Click on the Action button to select the name of application and connectors and then click on import to finish importing the application.  
 
 #### **Update configuration:** 
- Once created, edit the application in PowerApps studio, go to “Start” button function and update the web hook token that you’ve created in the step to setup Azure runbooks.  
-Similarly, update telemetry database table also, in the “Start” button function and in the App lan
+ Once created, edit the application in PowerApps studio, go to “**Start**” button function and update the web hook token that you’ve created in the step to setup Azure runbooks.  
+Similarly, update telemetry database table also, in the “**Start**” button function and in the App lan
 #### **Permission:** 
 Permission to PowerApps can be given to individual users or using active directory security groups. Please note people who’ve been access to PowerApps application should also be given edit access to the SharePoint list that’s created in the previous step.
 
