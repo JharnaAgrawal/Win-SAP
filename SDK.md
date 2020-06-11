@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<font size="6"> 
+<font size="9"> 
  <b> ABAP SDK for Azure </b>
 </font> 
 </p>
@@ -43,9 +43,9 @@ Version: 1.0
     * [Contact and Support](#heading--1-1)
    
 
- <div id="What is Azure?">
+ <div id="1.What is Azure?">
     <h2>
-        <a href="#TOC">What is Azure?</a>
+        <a href="#TOC">1.What is Azure?</a>
     </h2>
     <p>
     </p>
@@ -127,7 +127,6 @@ securely available on cloud for partners and other custom applications**
         <a href="#TOC">Business Use Cases?</a>
     </h3>
     <p>
-   
     </p>
 </div>
 
@@ -176,7 +175,6 @@ Figure 1: High-level Architecture diagram of ABAP SDK for Azure
         <a href="#TOC">Installation</a>
     </h3>
     <p>
-   
     </p>
 </div>
 You can easily install ABAP SDK for Azure in your landscape through
@@ -193,7 +191,7 @@ In SE80, create a new package **‘Z_AZURE_ABAPSDK’**
 
 After creating package, in se38 execute program ‘ZABAPGIT’ and select ‘+Online’
 
-![](MD%20image/28.png)
+![](MD%20image/28.PNG)
 
 Maintain the data in the fields as mentioned below and Select push button ‘OK’.
 
@@ -238,7 +236,6 @@ Once installed successfully, you should see all the objects of ABAP SDK for Azur
         <a href="#TOC">For more information</a>
     </h3>
     <p>
- 
     </p>
 </div>
 You can find more information on ABAP SDK in 
