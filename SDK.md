@@ -198,7 +198,7 @@ Maintain the data in the fields as mentioned below and Select push button â€˜OKâ
 Git clone URL: https://github.com/Microsoft/ABAP-SDK-for-Azure
 
 Target Package: Z_AZURE_ABAPSDK
-![](MD%20image/29.png)
+![](MD%20image/29.PNG)
 
 Save and activate all the objects into a transport request.
 
