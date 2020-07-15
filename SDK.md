@@ -29,18 +29,21 @@ Version: 1.0
         <li>
             <a href="#What is Azure?">1. What is Azure? </a>
         </li>
+        <li>
+            <a href="#What is ABAP SDK for Azure?">2. What is ABAP SDK for Azure? </a>
+        </li>
     </ul>
 </div>
 
-  * [2. What is ABAP SDK for Azure?](#heading--1-3)
-    * [Why do you need ABAP SDK for Azure?](#heading--1-4)
-    * [Business Use Cases](#heading--1-5)
-    * [Architecture](#heading--1-6)
-    * [Installation](#heading--1-7)
-    * [Implementation Guides](#heading--1-8)
-    * [Dos and Don’ts on usage of ABAP SDK](#heading--1-9)
-    * [For more information](#heading--1-2)
-    * [Contact and Support](#heading--1-1)
+
+   * [Why do you need ABAP SDK for Azure?](#heading--1-4)
+     * [Business Use Cases](#heading--1-5)
+     * [Architecture](#heading--1-6)
+     * [Installation](#heading--1-7)
+     * [Implementation Guides](#heading--1-8)
+     * [Dos and Don’ts on usage of ABAP SDK](#heading--1-9)
+     * [For more information](#heading--1-2)
+     * [Contact and Support](#heading--1-1)
    
 
  <div id="1.What is Azure?">
@@ -62,7 +65,7 @@ your services programmatically by using service-specific APIs and templates prov
 
 For more details on Azure, visit [Microsoft Azure](https://azure.microsoft.com/en-us/)
 
-<div id="heading--1-3">
+<div id="2. What is ABAP SDK for Azure?">
     <h3>
         <a href="#TOC">2. What is ABAP SDK for Azure?</a>
     </h3>
