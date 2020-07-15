@@ -31,7 +31,6 @@ Version: 1.0
         </li>
         <li>
             <a href="#What is ABAP SDK for Azure?">2. What is ABAP SDK for Azure? </a>
-            
         </li>
     </ul>
 </div>
@@ -66,10 +65,10 @@ your services programmatically by using service-specific APIs and templates prov
 
 For more details on Azure, visit [Microsoft Azure](https://azure.microsoft.com/en-us/)
 
-<div id="2. What is ABAP SDK for Azure?">
-    <h3>
+<div id="What is ABAP SDK for Azure?">
+    <h2>
         <a href="#TOC">2. What is ABAP SDK for Azure?</a>
-    </h3>
+    </h2>
     <p>
     Many large enterprise customers use SAP to run their business. There is growing need to integrate SAP applications to cloud. With Azure gaining popularity with enterprise customers, integrating SAP to Azure natively will be a basic and critical requirement for Azure adoption in enterprises.
     </p>
