@@ -46,8 +46,8 @@ Version: 1.0
 </div>
 
 * [5.1 Creation of RFC destination to Azure Active Directory](#heading--1-1)
-  * [5.2 STRUST Setup](#heading--1-2)
-  * [5.3 Configuration](#heading--1-3)
+* [5.2 STRUST Setup](#heading--1-2)
+* [5.3 Configuration](#heading--1-3)
     * [ZREST_CONFIG ](#heading--1-4)
     * [ZREST_CONF_MISC ](#heading--1-5)
     * [ZADF_CONFIG ](#heading--1-6)
@@ -190,7 +190,7 @@ Target host: **login.microsoftonline.com**
 
 Port: 443
 
-Path Prefix: **/<Input Tenant ID>/oauth2/token**
+Path Prefix: **/InputTenantID/oauth2/token**
 
 For Tenant ID details and creating a new tenant id in Azure Active Directory, please refer this document section
 ‘How to setup Azure Active Directory in Azure?’
