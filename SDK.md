@@ -5,10 +5,11 @@
 </p>
 
 <p align="center">
-<font size="16em"> 
- <b> ABAP SDK for Azure </b>
+<font size="6"> 
+  <b> ABAP SDK for Azure </b>
 </font> 
 </p>
+
 
 <p align="center"
 
