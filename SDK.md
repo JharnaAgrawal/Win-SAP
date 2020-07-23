@@ -5,12 +5,16 @@
 </p>
 
 <p align="center">
-<font size="9"> 
+<font size="16"> 
  <b> ABAP SDK for Azure </b>
 </font> 
 </p>
 
-[https://github.com/Microsoft/ABAP-SDK-for-Azure](https://github.com/Microsoft/ABAP-SDK-for-Azure)
+<p align="center"
+
+<https://github.com/Microsoft/ABAP-SDK-for-Azure>
+</p>
+
 
 <p align="right">
 Author: Microsoft SAP Team  
@@ -118,13 +122,13 @@ securely available on cloud for partners and other custom applications**
   
   In current version, ABAP SDK for Azure provides ABAP libraries for the below mentioned Azure Services. Each of these Azure services can be used to address various IT and business requirements in your landscape. Please go through individual Azure service documentation to understand it’s purpose and use cases in detail.
   
- * [Document DB](https://azure.microsoft.com/en-in/services/cosmos-db/)
+ 
  * [SQL DB](https://azure.microsoft.com/en-in/services/sql-database/)
  * [Blob Storage](https://azure.microsoft.com/en-in/services/storage/blobs/)
  * [Event Hubs](https://azure.microsoft.com/en-in/services/event-hubs/)
  * [Service Bus](https://azure.microsoft.com/en-in/services/service-bus/)
  * [Active Directory](https://azure.microsoft.com/en-in/services/active-directory/)
- * [Key Vault](https://azure.microsoft.com/en-in/services/active-directory/)
+ * [Key Vault](https://azure.microsoft.com/en-in/services/key-vault/)
 <div id="heading--1-5">
     <h3>
         <a href="#TOC">Business Use Cases?</a>
