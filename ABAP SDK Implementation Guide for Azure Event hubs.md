@@ -135,7 +135,7 @@ Visit <https://github.com/Microsoft/ABAP-SDK-for-Azure>
  
  Once you have entered your Event Hubs Namespace. Now you must create a new **Event Hub** Entity by selecting Event Hub under entities.
  
- ![](MD%20image/8.jpg)
+ ![](MD%20image/8.png)
  
  Create a new Event Hub with appropriate name like ‘SAPEvents’. You can choose any name of your choise and **Create**.
  
@@ -145,7 +145,7 @@ Visit <https://github.com/Microsoft/ABAP-SDK-for-Azure>
  
  This will now create a new Event Hub in your Event Hubs namespace.
  
- ![](MD%20image/10.jpg)
+ ![](MD%20image/10.png)
  
  Once you are done with creating Event Hub. Now you must create Shared access Policy. By Default, you will have policy **‘RootManageSharedAccessKey’** which will have complete access to Read, Write and Manage. In case you want to restrict users to only Read and Write, create your own policy accordingly.
  
@@ -155,7 +155,7 @@ Visit <https://github.com/Microsoft/ABAP-SDK-for-Azure>
  
  Once you select the policy, this will display SAS keys that will be used to Authenticate Azure Event Hub. These are secret keys and not to be shared with anyone.
  
- ![](MD%20image/12.jpg)
+ ![](MD%20image/12.png)
  
  With this we are ready with the setup process in Azure portal. We will now configure and code in SAP system to send data from SAP system directly to Azure Event Hub.
  
@@ -217,7 +217,7 @@ Visit <https://github.com/Microsoft/ABAP-SDK-for-Azure>
 
 3.	DigiCert Baltimore Root
 
-![](MD%20image/18.jpg)
+![](MD%20image/18.png)
 
 when all the certificates are downloaded, Go to STRUST transaction in your SAP system and Import all these certificates in DFAULT PSE.
 
@@ -352,7 +352,7 @@ Go to transaction ZREST_UTIL and provide your Interface ID in the selection scre
 
 In this monitor, you can view the status of the HTTPs message and its headers, response, payload and so on. In case of errors, you can also re-process the message from this tool.
 
-![](MD%20image/24.jpg)
+![](MD%20image/24.png)
 
 <div id="Auto re-processing of failed messages">
     <h2>
