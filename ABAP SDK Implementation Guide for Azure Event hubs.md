@@ -174,11 +174,11 @@ Visit <https://github.com/Microsoft/ABAP-SDK-for-Azure>
     </p>
 </div>
  
- Target host: <Eventhub Namespace>.servicebus.windows.net
+ Target host: {Eventhub Namespace}.servicebus.windows.net
 
  Port: 443
 
- Path Prefix: /<Eventhub name>/messages
+ Path Prefix: /Eventhub name/messages
  
  ![](MD%20image/13.png)
  
@@ -201,13 +201,11 @@ Visit <https://github.com/Microsoft/ABAP-SDK-for-Azure>
 </div>
 
  
- [https://abapsdkkdemo-eh.servicebus.windows.net/sapevents/messages](https://abapsdkkdemo-eh.servicebus.windows.net/sapevents/messages)
- 
- ![](MD%20image/16.png)
+ ![](MD%20image/32.jpg)
  
  Click on the Lock symbol you find next to refresh button in Chrome browser and select Certificate to view the certificate used for communication
  
- ![](MD%20image/17.png)
+ ![](MD%20image/33.jpg)
  
  In the certificate, go to Details tab and Choose button **‘Copy to File’** to download the certificate to your local machine. Repeat the process and download all the certificate until root. In this case, you need to download three certificates.
  
